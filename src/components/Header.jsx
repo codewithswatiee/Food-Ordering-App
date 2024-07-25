@@ -1,5 +1,5 @@
 import React from 'react'
-import logoImg from '..assets/logo.jpg'
+import logoImg from '../assets/logo.jpg'
 function Header() {
   return (
     <header id='main-header'>
@@ -8,7 +8,7 @@ function Header() {
             <h1>Food ordering App</h1>
         </div>
         <nav>
-            <button>Card (0)</button>
+            <button>Cart (0)</button>
         </nav>
     </header>
   )
