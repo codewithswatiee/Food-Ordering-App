@@ -80,7 +80,7 @@ export function CartContextProvider({children}) {
         })
     }
 
-    const CartContext = {
+    const CartContextValue = {
         items: cart.items,
         addItem,
         removeItem,
@@ -88,7 +88,7 @@ export function CartContextProvider({children}) {
 
     return(
         // This bellow component gives access to all the properties inside the context.
-        <CartContext.Provider value={CartContext}>{children}</CartContext.Provider>
+        <CartContext.Provider value={CartContextValue}>{children}</CartContext.Provider>
 
     )
 }
